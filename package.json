@@ -1,15 +1,16 @@
 {
-  "name": "currency-converter-project-1",
+  "name": "Faraz-Pasha-currency-converter-project-1",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "index.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "Faraz Pasha Currecny Exchange Center",
   "dependencies": {
     "inquirer": "^9.2.18"
   },

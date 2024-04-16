@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 console.log(chalk.red("\n \t Welcome to the Faraz Pasha Currency Exchange Center! \n"));
@@ -40,4 +41,3 @@ let base_amount = amount / from_amount;
 let converted_amount = base_amount * to_amount;
 // display the converted amount
 console.log(`Converted amount = ${converted_amount}`);
-console.log(converted_amount);
